@@ -6,8 +6,8 @@
 
 - It was observed that the target distribution was not uniform.
 - It was observed that *num_sentence* and *reflection_period* did not correlate with the targets and are unnecessary for training.
-- The text in *cleaned_hm* was tokenized and joined with spaces in between. This was done to make sure that all tokens (including punctuations) are space-separated.
-- The training data was split into train and validation sets.
+- The text in `hm_train.csv` and `hm_test.csv` was tokenized and joined with spaces in between. This was done to make sure that all tokens (including punctuations) are space-separated. The cleaned data was saved in `hm_train_cleaned.csv` and `hm_test_cleaned.csv` respectively.
+- The training data was split into train and validation sets and saved in `train.csv` and `test.csv`.
 
 The code for preprocessing and EDA is pressent in `preprocessing.ipynb`. 
 
