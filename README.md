@@ -1,4 +1,4 @@
-# SmileDB Text Classification
+# Text Classification
 
 
 
@@ -159,6 +159,7 @@ python3 predict.py /path/to/model.tar.gz /path/to/test.csv /path/to/submission.c
 
 ## Directory Structure
 
+```
 . <br>
 ├── BCN <br>
 │   ├── mylibrary <br>
@@ -191,4 +192,4 @@ python3 predict.py /path/to/model.tar.gz /path/to/test.csv /path/to/submission.c
 ├── requirements.txt <br>
 ├── test.csv <br>
 └── train.csv <br>
-
+```
