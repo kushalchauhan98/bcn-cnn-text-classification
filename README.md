@@ -160,36 +160,36 @@ python3 predict.py /path/to/model.tar.gz /path/to/test.csv /path/to/submission.c
 ## Directory Structure
 
 ```
-. <br>
-├── BCN <br>
-│   ├── mylibrary <br>
-│   │   ├── data <br>
-│   │   │   ├── dataset_readers <br>
-│   │   │   │   ├── \_\_init\_\_.py <br>
-│   │   │   │   └── smiledb.py <br>
-│   │   │   └── \_\_init\_\_.py <br>
-│   │   ├── predictors <br>
-│   │   │   ├── \_\_init\_\_.py <br>
-│   │   │   └── smiledb.py <br>
-│   │   └── \_\_init\_\_.py <br>
-│   ├── bcn_bert.jsonnet <br>
-│   ├── bcn_elmo_small.jsonnet <br>
-│   ├── bcn_glove_elmo.jsonnet <br>
-│   ├── bcn_glove_small_elmo_small.jsonnet <br>
-│   ├── bcn.jsonnet <br>
-│   ├── bcn_lrscheduler.jsonnet <br>
-│   ├── predict.py <br>
-│   └── train.py <br>
-├── TextCNN <br>
-│   └──TextCNN.ipynb <br>
-├── hm_test_cleaned.csv <br>
-├── hm_test.csv <br>
-├── hm_train_cleaned.csv <br>
-├── hm_train.csv <br>
-├── install_requirements.sh <br>
-├── preprocessing.ipynb <br>
-├── README.md <br>
-├── requirements.txt <br>
-├── test.csv <br>
-└── train.csv <br>
+.
+├── BCN
+│   ├── mylibrary
+│   │   ├── data
+│   │   │   ├── dataset_readers
+│   │   │   │   ├── \_\_init\_\_.py
+│   │   │   │   └── smiledb.py
+│   │   │   └── \_\_init\_\_.py
+│   │   ├── predictors
+│   │   │   ├── \_\_init\_\_.py
+│   │   │   └── smiledb.py
+│   │   └── \_\_init\_\_.py
+│   ├── bcn_bert.jsonnet
+│   ├── bcn_elmo_small.jsonnet
+│   ├── bcn_glove_elmo.jsonnet
+│   ├── bcn_glove_small_elmo_small.jsonnet
+│   ├── bcn.jsonnet
+│   ├── bcn_lrscheduler.jsonnet
+│   ├── predict.py
+│   └── train.py
+├── TextCNN
+│   └──TextCNN.ipynb
+├── hm_test_cleaned.csv
+├── hm_test.csv
+├── hm_train_cleaned.csv
+├── hm_train.csv
+├── install_requirements.sh
+├── preprocessing.ipynb
+├── README.md
+├── requirements.txt
+├── test.csv
+└── train.csv
 ```
