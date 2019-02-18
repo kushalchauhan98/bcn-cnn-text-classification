@@ -165,13 +165,13 @@ python3 predict.py /path/to/model.tar.gz /path/to/test.csv /path/to/submission.c
 │   ├── mylibrary
 │   │   ├── data
 │   │   │   ├── dataset_readers
-│   │   │   │   ├── \_\_init\_\_.py
+│   │   │   │   ├── __init__.py
 │   │   │   │   └── smiledb.py
-│   │   │   └── \_\_init\_\_.py
+│   │   │   └── __init__.py
 │   │   ├── predictors
-│   │   │   ├── \_\_init\_\_.py
+│   │   │   ├── __init__.py
 │   │   │   └── smiledb.py
-│   │   └── \_\_init\_\_.py
+│   │   └── __init__.py
 │   ├── bcn_bert.jsonnet
 │   ├── bcn_elmo_small.jsonnet
 │   ├── bcn_glove_elmo.jsonnet
